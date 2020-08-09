@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  
+spring:
+  application:
+    name: sample-jpa
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/bootstudy?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
