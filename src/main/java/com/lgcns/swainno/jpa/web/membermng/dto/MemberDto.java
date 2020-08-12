@@ -11,6 +11,8 @@ public class MemberDto {
 	
 	private int age;
 	
+	private Long teamId;
+	
 	private String teamName;
 
 }
